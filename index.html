@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      if ('serviceWorker' in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
     <meta charset="utf-8">
     <title>new-project</title>
   </head>
@@ -9,4 +17,3 @@
     <script src="/dist/build.js"></script>
   </body>
 </html>
-indexindexindex
