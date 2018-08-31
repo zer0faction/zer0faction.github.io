@@ -16,7 +16,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
  * requests for URLs in the manifest.
- * See https://goo.gl/S9QRab
+ * See https://goo.gl/S9QRabhhh
  */
 self.__precacheManifest = [
   {
