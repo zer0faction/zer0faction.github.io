@@ -5,3 +5,8 @@ if (workbox) {
 } else {
   console.log(`Workbox didn't load`);
 }
+
+workbox.routing.registerRoute(
+  new RegExp('.*\.vue'),
+  workbox.strategies.networkFirst()
+);
