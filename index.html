@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      if('serviceWorker' in navigator){
+        windows.addEventListener('load', () => {
+          navigator.serviceWorker.register('service-worker.js');
+        });
+      }
+    </script>
     <meta charset="utf-8">
     <title>new-project</title>
   </head>
