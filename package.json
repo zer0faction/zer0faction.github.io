@@ -1,11 +1,13 @@
 {
   "name": "new-project",
+  "wst": "/dist/",
   "description": "A Vue.js project",
   "version": "1.0.0",
   "author": "erin.wallaard@outlook.com <erin.wallaard@outlook.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
+    "deploy": "node ./node_modules/vue-gh-pages/index.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
@@ -25,6 +27,7 @@
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
+    "vue-gh-pages": "^1.18.2",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
