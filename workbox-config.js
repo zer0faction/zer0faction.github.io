@@ -1,7 +1,7 @@
 module.exports = {
-  "globDirectory": "dist/",
+  "globDirectory": "src/",
   "globPatterns": [
-    "**/*.{js,html,png,vue}"
+    "**/*.{vue,png,js}"
   ],
-  "swDest": "dist\\sw.js"
+  "swDest": "src\\sw.js"
 };
