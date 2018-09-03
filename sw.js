@@ -18,24 +18,24 @@
 //  * requests for URLs in the manifest.fffffff
 //  * See https://goo.gl/S9QRabhhhssssssss
 //  */
-// self.__precacheManifest = [
-//   {
-//     "url": "src/App.vue",
-//     "revision": "618d875d9f3e2ea01243a888c23e5fc6"
-//   },
-//   {
-//     "url": "src/assets/logo.png",
-//     "revision": "82b9c7a5a3f405032b1db71a25f67021"
-//   },
-//   {
-//     "url": "src/main.js",
-//     "revision": "3e1d05bd9260c62c829837e16c61e54f"
-//   }
-// ].concat(self.__precacheManifest || []);
-// workbox.precaching.suppressWarnings();
-// workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
-// workbox.core.setLogLevel(workbox.core.LOG_LEVELS.debug);
-//
+self.__precacheManifest = [
+  {
+    "url": "src/App.vue",
+    "revision": "618d875d9f3e2ea01243a888c23e5fc6"
+  },
+  {
+    "url": "src/assets/logo.png",
+    "revision": "82b9c7a5a3f405032b1db71a25f67021"
+  },
+  {
+    "url": "src/main.js",
+    "revision": "3e1d05bd9260c62c829837e16c61e54f"
+  }
+].concat(self.__precacheManifest || []);
+workbox.precaching.suppressWarnings();
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+workbox.core.setLogLevel(workbox.core.LOG_LEVELS.debug);
+
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js');
 if (workbox) {
