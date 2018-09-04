@@ -33,10 +33,6 @@ self.__precacheManifest = [
     "revision": "3fc880913b92e43db961c50a74fae21c"
   },
   {
-    "url": "manifest.json",
-    "revision": "b573741dd3cf0dae51660a7454632ecd"
-  },
-  {
     "url": "public/img/icons/android-chrome-192x192.png",
     "revision": "f130a0b70e386170cf6f011c0ca8c4f4"
   },
