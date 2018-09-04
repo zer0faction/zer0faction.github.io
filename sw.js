@@ -18,6 +18,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
  * requests for URLs in the manifest.
  * See https://goo.gl/S9QRab
  */
+
 self.__precacheManifest = [
   {
     "url": "dist/build.js",
@@ -92,10 +93,6 @@ self.__precacheManifest = [
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca"
   },
   {
-    "url": "README.md",
-    "revision": "90d1fbdbb2a9d98d5575c58d61bc10cf"
-  },
-  {
     "url": "src/App.vue",
     "revision": "8c0984d97eed0e7c90cf85a5db748423"
   },
@@ -110,14 +107,6 @@ self.__precacheManifest = [
   {
     "url": "src/registerServiceWorker.js",
     "revision": "95cc3ee3452d555b9e807746a497850a"
-  },
-  {
-    "url": "webpack.config.js",
-    "revision": "eb4d99ba01c1a7ea50568dd96412e8d3"
-  },
-  {
-    "url": "workbox-config.js",
-    "revision": "f55dad84f5b40d768b12a8c0c96a9103"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
